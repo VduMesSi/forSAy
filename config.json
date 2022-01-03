@@ -1,0 +1,30 @@
+{
+  "inbounds": [
+    {
+      "port": 5080,
+      "listen":"::",
+      "protocol": "vless",
+      "settings": {
+        "decryption": "none",
+        "clients": [
+          {
+            "id": "7b235191-bff8-421e-be95-58a845af3581",
+            "alterId": 64
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/tafskvna"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
