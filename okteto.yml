@@ -1,0 +1,5 @@
+name: fly2low
+services: 
+image: golang:alpine
+forward:
+  - 8080:8080
