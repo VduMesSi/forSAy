@@ -20,4 +20,4 @@ ADD index.html /var/lib/nginx/html/index.html
 ADD configure.sh /configure.sh
 RUN chmod +x /configure.sh
 EXPOSE 80
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/configure.sh"]
